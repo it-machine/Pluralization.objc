@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   # s.description  = <<-DESC
   #                  DESC
 
-  s.homepage     = "https://github.com/it-machine/iOS-pluralization"
+  s.homepage     = "https://github.com/it-machine/Pluralization.objc"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
