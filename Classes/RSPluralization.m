@@ -11,9 +11,8 @@
 @implementation RSPluralization
 
 +(NSString*)createStringWithNumber:(int)count arrEnding:(NSArray*)arrEnding{
-    int numbSave = count;
     NSString* ending;
-    
+
     count = count % 100;
     if (count>=11 && count<=19) {
         ending=arrEnding[2];
@@ -29,8 +28,8 @@
             default:  ending = arrEnding[2];
         }
     }
-    
-    return [NSString stringWithFormat:@"@",ending];
+
+    return [NSString stringWithFormat:@"%@",ending];
 }
 
 @end
